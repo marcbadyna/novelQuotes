@@ -57,6 +57,7 @@ li {
     border-radius: 4px;
     flex: 0 1 300px;
     text-align: center;
+    padding: 16px;
 }
 
 .footer {
