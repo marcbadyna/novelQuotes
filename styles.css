@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     min-height: 100vh;
     padding: 0;
@@ -23,9 +27,10 @@ body {
 }
 
 .sidebar {
-    width: 300px;
+    width: 150px;
     background-color: #3c0064;
     color: white;
+    flex-shrink: 0;
 }
 
 ul {
@@ -43,6 +48,7 @@ li {
     display: flex;
     flex-wrap: wrap;
     padding: 48px;
+    gap: 10px;
 }
 
 .card {
@@ -50,6 +56,7 @@ li {
     box-shadow: 2px 4px 16px rgba(0, 0, 0, .06);
     border-radius: 4px;
     flex: 0 1 300px;
+    text-align: center;
 }
 
 .footer {
